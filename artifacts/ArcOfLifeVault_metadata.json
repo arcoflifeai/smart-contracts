@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMission",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_mission",
+						"type": "string"
+					}
+				],
+				"name": "setMission",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ArcStorage.sol": "ArcOfLifeVault"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ArcStorage.sol": {
+			"keccak256": "0x3b338d3a8a9d76724ab3c93c1824c142251109aca5900fda00a2d4e28a93c814",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://00e3e865f60435e968542e268d9ec5998c13f1e5c2279a29072718799bed85f3",
+				"dweb:/ipfs/Qmb24ACP5fnvEWjFbUham1d3oc67QunndCBfjDtGAin8G5"
+			]
+		}
+	},
+	"version": 1
+}
